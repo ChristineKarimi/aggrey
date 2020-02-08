@@ -1,0 +1,249 @@
+@media screen and (min-width: 769px) {
+  body {
+    padding: 0% 20% 0% 20%;
+  }
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 360px) {
+  .container {
+    margin: auto;
+    width: auto;
+  }
+}
+
+body {
+  font-family: Arial;
+  color: black;
+  text-align: center;
+}
+
+.body-container {
+  margin: 0;
+  padding: 0;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: snow;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: orange;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: darkmagenta;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: black;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: red;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
+.header {
+  background: dodgerblue;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background: rgba(30, 144, 255, 0.2);
+  height: 100%;
+  width: 100%;
+  border: 0.05em solid rgba(30, 144, 255, 0.6);
+  border-radius: 2%;
+  overflow: hidden;
+  margin: 1.5em auto;
+}
+
+@keyframes colors {
+  0% {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+  }
+  25% {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+  }
+  50% {
+    background-color: darkorange;
+    border-color: darkorange;
+  }
+  100% {
+    background-color: darkblue;
+    border-color: darkblue;
+  }
+}
+
+#happybirthday {
+  -webkit-animation-name: colors;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes dpicolors {
+  0% {
+    border-color: #18b0ef;
+  }
+  25% {
+    border-color: deepskyblue;
+  }
+  50% {
+    border-color: darkorange;
+  }
+  100% {
+    border-color: darkolivegreen;
+  }
+}
+
+#dpic {
+  -webkit-animation-name: colors;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes heartsizes {
+  0% {
+    font-size: 0.6em;
+  }
+  25% {
+    font-size: 0.8em;
+  }
+  50% {
+    font-size: 1.0em;
+  }
+  100% {
+    font-size: 1.2em;
+  }
+}
+
+#heart {
+  -webkit-animation-name: heartsizes;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes textcolors {
+  0% {
+    color: dodgerblue;
+  }
+  25% {
+    color: mediumseagreen;
+  }
+  50% {
+    color: darkorange;
+  }
+  100% {
+    color: darkblue;
+  }
+}
+
+.somemagic, .somemagic2 {
+  -webkit-animation-name: textcolors;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+
+.container {
+  margin: 0% 5% 0% 5%;
+  padding: 0;
+}
+
+.col-md-9 {
+  padding: 0;
+}
+
+#dpic {
+  width: 13%;
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.5%;
+  border-color: #18b0ef;
+  margin: 4.5% 0% 0% 3%;
+  z-index: 1;
+}
+
+.img-thumbnail {
+  border-color: rgba(30, 144, 255, 0.6);
+}
+
+#dyan-details .form-control {
+  border-color: rgba(30, 144, 255, 0.6);
+}
+
+.form-control::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.gee2, .gee3, .typewriter, .HBD {
+  display: none;
+}
+
+.clickme {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+svg {
+  display: inline;
+  font: 6.5em 'Montserrat';
+}
+
+text {
+  color: white;
+  margin-top: 0%;
+}
+
+hr {
+  border-color: darkblue;
+  border-style: dotted;
+}
+
+.footer {
+  background-color: dodgerblue;
+  color: white;
+  margin: 0%;
+  margin-top: 3%;
+  padding: 0%;
+  }
+
+  .footer p {
+    color: white;
+    padding: 5% 0% 4% 0%;
+    margin-bottom: 0;
+  }
