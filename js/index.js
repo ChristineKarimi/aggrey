@@ -26,7 +26,7 @@ $(document).ready(function() {
     scrollTo($('.Aggrey'), 2000);
   })
   $('.Aggrey').click(function() {
-    $('.HBD').show()
+    $('.VAL').show()
     scrollTo($('#Aggrey2'), 2000);
   })
 })
