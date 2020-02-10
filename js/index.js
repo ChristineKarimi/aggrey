@@ -1,7 +1,7 @@
 var showDyan = function(passWord) {
   var userName = $("input#Username").val()
   var passWord = $("input#password").val()
-  if (passWord === "") {
+  if (passWord === "Aggrey") {
     $(".gee2").show()
   } else {
     alert("Oooops! Sorry " + userName + ", " + passWord + " is an incorrect password.")
